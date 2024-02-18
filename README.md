@@ -11,8 +11,34 @@ Technologies
 *   open.er-api.com API
 
 ## How to run the project
-1.  Clone the project.
-2.  Create python virtual environment.
-3.  install requirements. `$ pip install -r requirements.txt`
-4.  apply migrate. `$ python manage.py migrate`
-5.  at last run django server and open localhost. `$ python manage.py runserver` and open `http://localhost:8000`
+1.  Clone the project using :- 
+```
+git clone https://github.com/atulguptag/Django-Currency-Converter.git
+```
+
+2.  Create python virtual environment if required.
+
+```
+python -m venv env
+```
+
+3.  Install requirements. 
+```
+pip install -r requirements.txt
+```
+
+4.  Apply migrate. 
+```
+python manage.py migrate
+```
+
+5.  At last run django server and open localhost. 
+```
+python manage.py runserver
+```
+
+* and open 
+
+```
+http://localhost:8000
+```
